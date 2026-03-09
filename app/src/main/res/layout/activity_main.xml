@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+
+    <TouchSurface 
+        android:id="@+id/touch_surface" 
+        android:layout_width="match_parent" 
+        android:layout_height="0dp" 
+        android:layout_weight="1" />
+
+    <LinearLayout 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"> 
+
+        <Button 
+            android:id="@+id/button_play" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:text="Play" />
+
+        <Button 
+            android:id="@+id/button_record" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:text="Record" />
+
+        <Button 
+            android:id="@+id/button_stop" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:text="Stop" />
+
+    </LinearLayout>
+
+    <Spinner 
+        android:id="@+id/instrument_spinner" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" />
+
+    <SeekBar 
+        android:id="@+id/volume_seekbar" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" />
+
+    <LinearLayout 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"> 
+
+        <Button 
+            android:id="@+id/button_vibrato" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:text="Vibrato" />
+
+        <Button 
+            android:id="@+id/button_slide" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:text="Slide" />
+
+        <Button 
+            android:id="@+id/button_bend" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:text="Bend" />
+
+    </LinearLayout>
+
+</LinearLayout>
